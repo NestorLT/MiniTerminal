@@ -118,9 +118,8 @@ public class MiniTerminal
                 }
                 case "rm" -> MiniFileManager.borraFile(directorio);
                 case "mv" -> {
-                    // Falta implementar mover carpetas con espacios
                     MiniFileManager.mueveFile(directorio, directorio2);
-                } // undone
+                }
                 case "mostrar" -> MiniFileManager.mostrar(directorio);
                 case "sustituir" -> MiniFileManager.sustituir(directorio, directorio2, directorio3);
                 case "help" -> MiniFileManager.ayuda();
